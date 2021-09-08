@@ -1,0 +1,10 @@
+one\digitalinnovation\personapi\model\Phone.class
+one\digitalinnovation\personapi\model\Person$PersonBuilder.class
+one\digitalinnovation\personapi\dto\PersonDTO.class
+one\digitalinnovation\personapi\model\Phone$PhoneBuilder.class
+one\digitalinnovation\personapi\controller\PersonController.class
+one\digitalinnovation\personapi\repository\PersonRepository.class
+one\digitalinnovation\personapi\enums\PhoneType.class
+one\digitalinnovation\personapi\service\PersonService.class
+one\digitalinnovation\personapi\PersonapiApplication.class
+one\digitalinnovation\personapi\model\Person.class
