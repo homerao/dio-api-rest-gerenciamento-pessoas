@@ -8,4 +8,5 @@ import one.digitalinnovation.personapi.model.Person;
 @Repository
 public interface PersonRepository extends  JpaRepository<Person, Long> {
 
+	public Person findByCpf(String cpf);
 }

@@ -38,9 +38,9 @@ public class Person {
 	private String firstName;
 	@Column( nullable = false, length = 25)
 	private String lastName;
-	@Column( nullable = true, length = 15)
+	@Column( nullable = false, length = 15, unique = true)
 	private String cpf;
-	@Column( nullable = true)
+	@Column( nullable = false)
 	@DateTimeFormat(pattern = "dd-MM-yyyy")
 	private LocalDate dataNascimento;
 	@OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})

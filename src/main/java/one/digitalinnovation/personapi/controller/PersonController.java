@@ -25,7 +25,7 @@ public class PersonController {
 	}
 	
 	@GetMapping
-	public String personApiStatus() {
+	public String allPerson() {
 		List<Person> p = new ArrayList<>();
 		p = service.findAll();
 		return p.toString();
